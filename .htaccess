@@ -25,4 +25,4 @@ RewriteRule ^(.*)$ http://www.bt.local/$1 [L,R=301,NC]
 ErrorDocument 404 /errors/not_found.php
 
 #mapju staigasana / index.html
-ErrorDocument 403 /errors/forbidden.html
+ErrorDocument 403 /errors/forbidden.php
